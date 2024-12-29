@@ -1,15 +1,40 @@
-<h1 align="center">Welcome to my develper-ortfolio 👋</h1>
-<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
+<h1 align="center"> Hi there, I'm Jean👋</h1>
 
-<h2 align = "center">  Unveiling Stories through Data Analysis and Low-Code App Development for Everyday Ease. 
+## Data Analyst Portfolio
 
-<p align="center">
-  <kbd>
-    <img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/Portoflio%20-%20Dark.png"></img>
-  </kbd>
-</p>
+Welcome to my portfolio! I am a Data Analyst with specializing in data visualization, business intelligence, and creating actionable insights. My expertise includes tools like Power BI, SQL, and Python, which I use to transform complex data into clear, impactful narratives that drive business decisions.
 
-## Projetos, 
+---
+
+## About Me
+
+I have worked on numerous impactful projects, including building predictive sales models, analyzing marketing data, and developing operational dashboards. My goal is to empower businesses with data-driven strategies and improve decision-making processes.
+
+---
+
+## Contact
+
+Feel free to reach out via email at [jean.rsantos1@gmail.com](mailto:jean.rsantos1@gmail.com).
+
+Or connect with me on [LinkedIn](https://linkedin.com/in/jean-rocha).
+
+---
+
+## Projects
+
+### Sales Forecasting Model
+- **Tools Used:** Power BI, SQL
+- **Highlights:** Built a predictive model to enhance sales strategies, reducing manual effort by 40%.
+
+### Marketing Data Analysis
+- **Tools Used:** SQL, Power BI
+- **Highlights:** Improved email engagement by 20% and increased campaign sales by 15%.
+
+### Operational Efficiency Dashboard
+- **Tools Used:** Power BI
+- **Highlights:** Developed a unified dashboard for the CEO, integrating data from multiple departments for real-time monitoring.
+
+
 
 ## Square Analysis, **[click here](https://app.powerbi.com/reportEmbed?reportId=fc7abf58-d2d1-4802-9bfc-ccd80abb21ad&autoAuth=true&ctid=30cb66b6-2919-4c93-b208-6b8e8cefdd39/)**.
 This project enables users to accurately determine the distance between a selected school and nearby schools. The information provided includes the number of pupils in each school, their locations, and the average ticket price. This allows for a comprehensive and effortless comparison of schools within a specific radius. 
@@ -137,3 +162,17 @@ current_year
 km_total
 
 
+Visit my repositories to explore more projects and code samples.
+
+
+---
+
+## Icons and Tools
+
+- **Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+- **Visualization Tools:** ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+- **Other Skills:** ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
+&copy; 2024 Jean Rocha Santos
