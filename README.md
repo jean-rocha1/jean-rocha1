@@ -12,14 +12,6 @@ I have worked on numerous impactful projects, including building predictive sale
 
 ---
 
-## Contact
-
-Feel free to reach out via email at [jean.rsantos1@gmail.com](mailto:jean.rsantos1@gmail.com).
-
-Or connect with me on [LinkedIn](https://linkedin.com/in/jean-rocha).
-
----
-
 ## Projects
 
 ### Sales Forecasting Model
