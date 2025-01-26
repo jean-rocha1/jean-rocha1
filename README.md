@@ -24,9 +24,48 @@
 - ### Operational Efficiency Dashboard
   - **Tools Used:** Power BI
   - **Highlights:** Developed a unified dashboard for the CEO, integrating data from multiple departments for real-time monitoring.
+    
+- ### COCKPIT, 
+
+  Developed an interactive Power BI dashboard to centralize data from sales, HR, and marketing, providing real-time insights for decision-making. This tool enhanced operational efficiency, aligned with OKR strategies, and improved overall performance visibility for leadership.
+
+<p align="center">
+  <kbd>
+    <img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/V%C3%ADdeo%20sem%20t%C3%ADtulo%20(1).gif"></img>
+  </kbd>
+</p>
+
+DAX
+```csharp
+Principal Dax =
+dbl_faturamento_juncao_probabilidade_BX =
+var faturamento_lojinha = [dbl_faturamento_gerencial_lojinha]
+var faturamento_car = [dbl_faturamento_bruto_car_probabilidade]
+var faturamento_potencial =
+    calculate (
+        1100 * sum ( fato_Negocios_funil_last_date[quantidade_produtos] ),
+        fato_Negocios_funil_last_date[fk_etapa_funil] > 4,
+        fato_Negocios_funil_last_date[business_unit] = "GROWTH"
+    )
+var faturamento_potencial7k =
+    calculate (
+        1100 * sum ( fato_Negocios_funil_last_date[quantidade_produtos] ),
+        dim_Organizacoes[Escolas_Trabalhar_7000.Carteira 2023] <> ""
+    )
+var faturamento_potencial_geral =
+    calculate ( 1100 * sum ( dim_Organizacoes[alunos_TT] ) )
+return
+    switch (
+        selectedvalue ( 'Tipo de dado'[Value] ),
+        "Lojinha", faturamento_lojinha,
+        "Contrato", faturamento_car,
+        "Potencial Conversão", faturamento_potencial,
+        "Potencial 7k", faturamento_potencial7k,
+        faturamento_potencial_geral
+    )
 
 
-
+````
 - ### Square Analysis, **[click here](https://app.powerbi.com/reportEmbed?reportId=fc7abf58-d2d1-4802-9bfc-ccd80abb21ad&autoAuth=true&ctid=30cb66b6-2919-4c93-b208-6b8e8cefdd39/)**.
   This project enables users to accurately determine the distance between a selected school and nearby schools. The information provided includes the number of pupils in each school, their locations, and the average ticket price. This allows for a comprehensive and effortless comparison of schools within a specific radius.
 
@@ -36,26 +75,27 @@
   </kbd>
 </p>
 
-```DAX
+DAX
+```csharp
 Principal Dax = 
-VAR Rad_lat1 =
-    SELECTEDVALUE ( Origem[Latitude] ) / 57.2957795
-VAR Rad_lat2 =
-    SELECTEDVALUE ( Fat_Organization[Latitude] ) / 57.2957795
-VAR Rad_long1 =
-    SELECTEDVALUE ( Origem[Longitude] ) / 57.2957795
-VAR Rad_long2 =
-    SELECTEDVALUE ( Fat_Organization[Longitude] ) / 57.2957795
-VAR x =
-    ROUND (
-        SIN ( Rad_lat1 ) * SIN ( Rad_lat2 )
-            + COS ( Rad_lat1 ) * COS ( Rad_lat2 )
-                * COS ( Rad_long1 - Rad_long2 ),
+var Rad_lat1 =
+    selectedvalue ( Origem[Latitude] ) / 57.2957795
+var Rad_lat2 =
+    selectedvalue ( Fat_Organization[Latitude] ) / 57.2957795
+var Rad_long1 =
+    selectedvalue ( Origem[Longitude] ) / 57.2957795
+var Rad_long2 =
+    selectedvalue ( Fat_Organization[Longitude] ) / 57.2957795
+var x =
+    round (
+        sin ( Rad_lat1 ) * sin ( Rad_lat2 )
+            + cos ( Rad_lat1 ) * cos ( Rad_lat2 )
+                * cos ( Rad_long1 - Rad_long2 ),
         15
     )
-VAR vTerra = 6371
-RETURN
-    ACOS ( x ) * 6371
+var vTerra = 6371
+return
+    acos ( x ) * 6371
 
 ````
 - ### Power Apps
