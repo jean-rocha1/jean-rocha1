@@ -23,11 +23,7 @@
 
 - ### Operational Efficiency Dashboard
   - **Tools Used:** Power BI
-  - **Highlights:** Developed a unified dashboard for the CEO, integrating data from multiple departments for real-time monitoring.
-    
-- ### COCKPIT, 
-
-  Developed an interactive Power BI dashboard to centralize data from sales, HR, and marketing, providing real-time insights for decision-making. This tool enhanced operational efficiency, aligned with OKR strategies, and improved overall performance visibility for leadership.
+  - **Highlights:** Developed a unified dashboard for the CEO, integrating data from multiple departments for real-time monitoring, this tool enhanced operational efficiency, aligned with OKR strategies, and improved overall performance visibility for leadership.
 
 <p align="center">
   <kbd>
