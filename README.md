@@ -20,6 +20,12 @@
 - ### Marketing Data Analysis
   - **Tools Used:** SQL, Power BI
   - **Highlights:** Improved email engagement by 20% and increased campaign sales by 15%.
+ 
+ <p align="center">
+  <kbd>
+    <img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/Captura%20de%20tela%202025-01-26%20221207.png"></img>
+  </kbd>
+</p> 
 
 - ### Operational Efficiency Dashboard
   - **Tools Used:** Power BI
