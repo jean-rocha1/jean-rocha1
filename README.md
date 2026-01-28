@@ -13,6 +13,8 @@
 
 <h1 align="center"> Projects 📈 </h1>
 
+👉 [Ver apresentação incorporada](./SmartThingProject.html)
+
 - ### Sales Forecasting Model
   - **Tools Used:** Power BI, SQL
   - **Highlights:** Built a predictive model to enhance sales strategies, reducing manual effort by 40%.
