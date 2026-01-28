@@ -13,7 +13,13 @@
 
 <h1 align="center"> Projects 📈 </h1>
 
-👉 [Ver apresentação incorporada](./SmartThingProject.html)
+## 📊 Presentation — PowerApps: Ticketing System
+
+This presentation showcases the architecture, features, and workflow of the Ticketing System built in Power Apps.
+<img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/Captura de tela 2026-01-28 200346.png"></img>
+[![PowerApps - Ticketing System Presentation]](https://www.canva.com/design/DAG_u5GstUY/PJO_gJiPljeSZlkG3JqSyg/view?utm_content=DAG_u5GstUY&utm_campaign=designshare&utm_medium=embeds&utm_source=link)
+
+
 
 - ### Sales Forecasting Model
   - **Tools Used:** Power BI, SQL
